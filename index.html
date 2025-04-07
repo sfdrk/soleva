@@ -11,19 +11,26 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+   
     <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css?ver=1.1" type="text/css">
-
+    <link rel="stylesheet" href="assets/css/style.css?ver=1.2" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Soleva Web</title>
 
 </head>
 
-<body class="links-hover-effect" data-spy="scroll" data-target=".navigation">
+<body class="" data-spy="scroll" data-target=".navigation">
+
+
+
+
+
 
 <div class="page-wrapper" id="page-top">
     <header id="page-header">
         <nav class="navigation">
-            <div class="container">
+            <div class="nav-container">
                 <div class="wrapper">
                     <div class="left">
                         <a href="index-v1.html" class="brand"><img src="assets/img/logo.png" alt=""></a>
@@ -73,9 +80,15 @@
                         </form> -->
                         <!--end form-hero-->
                     </div>
-                    <a href="" class="scroll-to-btm">
-
-                    </a>
+                    <!-- <div class="container"> -->
+                    <div class="hero-bottoms">
+                        <a href="#about" class="scroll-to-btm scroll">
+                        </a>
+                        <div class="disc-cnt">
+                            DISCOVER MORE
+                        </div>
+                    </div>
+                    <!-- </div> -->
                     <!--end container-->
                 </div>
                 <!--end hero-title-->
@@ -98,6 +111,17 @@
     </header>
     <!--end page-header-->
 
+    <!-- <div class="short-cuts">
+        <div class="sht-socials">
+            <a class="sc">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+        </div>
+    </div> -->
+
+
+
+
     <div id="page-content">
 
         <div class="block background-is-dark second-block">
@@ -112,7 +136,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac ornare felis.
                                     Nam velit neque, blandit id placerat
                                 </p>
-                                <a href="" class="btn btn-default btn-rounded arrow">Read More</a>
+                                <!-- <a href="" class="btn btn-default btn-rounded arrow">Read More</a> -->
                             </div>
                             <!--end description-->
                         </div>
@@ -128,7 +152,7 @@
                                 <p>Mauris ac ornare felis. Nam velit neque, blandit id placerat eu, venenatis at purus.
                                     Nunc maximus ultrices lacus
                                 </p>
-                                <a href="" class="btn btn-default btn-rounded arrow">Read More</a>
+                                <!-- <a href="" class="btn btn-default btn-rounded arrow">Read More</a> -->
                             </div>
                             <!--end description-->
                         </div>
@@ -144,7 +168,7 @@
                                 <p>Nam velit neque, blandit id placerat eu, venenatis at purus. Nunc maximus ultrices
                                     lacus eu fringilla.
                                 </p>
-                                <a href="" class="btn btn-default btn-rounded arrow">Read More</a>
+                                <!-- <a href="" class="btn btn-default btn-rounded arrow">Read More</a> -->
                             </div>
                             <!--end description-->
                         </div>
@@ -181,13 +205,16 @@
                             <li>Lot of parking places, even for your visitors</li>
                             <li>Many play areas for your kids</li>
                         </ul>
+                        <a href="#contact" class="btn btn-rounded btn-primary scroll arrow">DISCOVER MORE</a>
+                        
+
                         <!--end ul-->
                        </div>
                     <!--end col-md-6-->
                     <!--end col-md-6-->
                     <div class="col-md-6 col-sm-6">
                         <!-- <h3>Video presentation</h3> -->
-                        <a href="http://vimeo.com/24506451" class="video-player video-popup" data-scroll-reveal="enter bottom and move 50px">
+                        <a href="http://vimeo.com/24506451" class="video-player  res-mt-40 video-popup" data-scroll-reveal="enter bottom and move 50px">
                             <i class="play-icon arrow_triangle-right"></i>
                             <div class="has-overlay">
                                 <img src="./assets/images/Solevarenders03.webp" alt="">
@@ -337,6 +364,11 @@
                                     ligula eget faucibus. Donec tincidunt fermentum purus, eu pharetra arcu scelerisque a.
                                     Maecenas felis eros, volutpat ac justo non, imperdiet porttitor
                                 </p>
+                                <h4>Soundproof rooms</h4>
+                                <p>Donec tincidunt fermentum purus, eu pharetra arcu scelerisque a. Maecenas felis eros,
+                                    volutpat ac justo non, imperdiet porttitor lorem. Nulla suscipit mi a arcu sollicitudin,
+                                    sit amet
+                                </p>
                             </div>
                             <!--end description-->
                         </div>
@@ -365,7 +397,7 @@
             <div class="container">
                 <h2>Gallery.</h2>
             </div>
-            <div class="owl-carousel big-gallery" data-owl-items="3" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-center="1" data-owl-loop="1" data-owl-nav-container="#big-gallery-nav">
+            <!-- <div class="owl-carousel big-gallery" data-owl-items="3" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-center="1" data-owl-loop="1" data-owl-nav-container="#big-gallery-nav">
                 <div class="slide">
                     <div class="container">
                         <img src="./assets/images/Solevahero.webp" alt="">
@@ -373,9 +405,9 @@
                             <h3 class="framed">Front View</h3>
                         </div>
                     </div>
-                    <!--end container-->
+             
                 </div>
-                <!--end slide-->
+              
                 <div class="slide">
                     <div class="container">
                         <img src="./assets/images/Solevarenders04.webp" alt="">
@@ -383,9 +415,9 @@
                             <h3 class="framed">Garage</h3>
                         </div>
                     </div>
-                    <!--end container-->
+              
                 </div>
-                <!--end slide-->
+              
                 <div class="slide">
                     <div class="container">
                         <img src="./assets/images/Solevarenders07.webp" alt="">
@@ -393,59 +425,125 @@
                             <h3 class="framed">Back View</h3>
                         </div>
                     </div>
-                    <!--end container-->
+                 
                 </div>
-                <!--end slide-->
+                
+            </div> -->
+            <div class="owl-carousel big-gallery" data-owl-items="3" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-center="1" data-owl-loop="1" data-owl-nav-container="#big-gallery-nav">
+                <div class="slide">
+                    <div class="container">
+                        <a href="./assets/images/Solevahero.webp" data-lightbox="gallery" data-title="Front View">
+                            <img src="./assets/images/Solevahero.webp" alt="">
+                        </a>
+                        <div class="description">
+                            <h3 class="framed">Front View</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container">
+                        <a href="./assets/images/Solevarenders04.webp" data-lightbox="gallery" data-title="Garage">
+                            <img src="./assets/images/Solevarenders04.webp" alt="">
+                        </a>
+                        <div class="description">
+                            <h3 class="framed">Garage</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container">
+                        <a href="./assets/images/Solevarenders07.webp" data-lightbox="gallery" data-title="Back View">
+                            <img src="./assets/images/Solevarenders07.webp" alt="">
+                        </a>
+                        <div class="description">
+                            <h3 class="framed">Back View</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!--end big-gallery-->
             <div class="container">
                 <div class="owl-nav-wrapper">
                     <div class="owl-nav" id="big-gallery-nav"></div>
                 </div>
-                <!--end owl-nav-wrapper-->
+            
             </div>
-            <!--end container-->
+           
         </div>
 
         <div class="block" id="amenities">
             <div class="container">
 
-                <div class="row">
-                    <div class="col-md-5">
+                <div class="amenities-main-container">
+                    <div class="amenities-img-container">
                         <img src="./assets/images/amenitymain.webp">
                     </div>
-                    <div class="col-md-7">
+                    <div class="amenities-content-container">
                         <div class="amenity-block">
                             <p>AMENITIES</p>
-                            <h2>
+                            <h2 class="">
                                 Awakening the Senses:
                                 A Sanctuary Of Comfort and Convenience
                             </h2>
-                            <p>
+                            <p class="amenity-para">
                                 The thoughtfully curated amenities harmonize well-being, comfort, and leisure, offering alifestyle that elevatesrelaxation while fostering vibrant social interactions in an elegant and tranquil setting.
                             </p>
+                            <div class="amenities-btn">
+                            <a href="#contact" class="btn btn-rounded btn-primary scroll arrow mt-40">DISCOVER MORE</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="amenities-slider">
-                <div class="owl-carousel amenities owl-theme">
-                    <div class="item">
-                        <img src="./assets/images/pool.jpg">
-                        <div class="item-content">
-                            <p>INFINITE POOOL</p>
-                            <P>A refined hub providing personalized services in an elegant, welcoming setting.</P>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper amenities">
+                            <div class="swiper-slide item">
+                                <img src="./assets/images/amenities/kidsplayarea.webp">
+                                <div class="item-content">
+                                    <h3>KIDS PLAY AREA</h3>
+                                    <P>A refined hub providing personalized services in an elegant, welcoming setting.</P>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <img src="./assets/images/amenities/COWORKING.webp">
+                                <div class="item-content">
+                                    <h3>CO-WORKING SPACE</h3>
+                                    <P>A refined hub providing personalized services in an elegant, welcoming setting.</P>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <img src="./assets/images/amenities/bbq.png">
+                                <div class="item-content">
+                                    <h3>BBQ SPACE & OPEN DINING</h3>
+                                    <P>A refined hub providing personalized services in an elegant, welcoming setting.</P>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <img src="./assets/images/amenitieS/yoga.webp">
+                                <div class="item-content">
+                                    <h3>YOGA PILATES ZONE</h3>
+                                    <P>A refined hub providing personalized services in an elegant, welcoming setting.</P>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item">
+                                <img src="./assets/images/amenities/lobby.png">
+                                <div class="item-content">
+                                    <h3>CONCIERGE & LOBBY</h3>
+                                    <P>A refined hub providing personalized services in an elegant, welcoming setting.</P>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <!-- Custom Navigation -->
+                        <div class="swiper-navigation">
+                            <div class="swiper-button-prev-custom">←</div>
+                            <div class="swiper-button-next-custom">→</div>
                         </div>
                     </div>
-                    <div class="item"><img src="./assets/images/pool.jpg"></div>
-                    <div class="item"><img src="./assets/images/pool.jpg"></div>
-                    <div class="item"><img src="./assets/images/pool.jpg"></div>
-                    <div class="item"><img src="./assets/images/pool.jpg"></div>
-                    <div class="item"><img src="./assets/images/pool.jpg"></div>
-                    <div class="item"><img src="./assets/images/pool.jpg"></div>
-                    <div class="item"><img src="./assets/images/pool.jpg"></div>
-                   
-                </div>
+
+                </div> 
                 </div>
             </div>
         </div>
@@ -725,10 +823,10 @@
                                 <div class="col-md-6 col-sm-6">
                                     <h3>Social</h3>
                                     <div class="social">
-                                        <a href="#" class="roll-effect"><i class="social_facebook_circle"></i>Facebook</a>
-                                        <a href="#"><i class="social_twitter_circle"></i>Twitter</a>
-                                        <a href="#"><i class="social_instagram_circle"></i>Instagram</a>
-                                        <a href="#"><i class="social_skype_circle"></i>Skype</a>
+                                        <a href="#" class="roll-effect"><i class="fa-brands fa-facebook-f social-icon"></i>Facebook</a>
+                                        <a href="#"><i class="fa-brands fa-x-twitter social-icon"></i>Twitter</a>
+                                        <a href="#"><i class="fa-brands fa-instagram social-icon"></i>Instagram</a>
+                                        <a href="#"><i class="fa-brands fa-youtube social-icon"></i>Youtube</a>
                                     </div>
                                     <!--end social-->
                                 </div>
@@ -794,7 +892,7 @@
         </div> -->
         <!--end container-->
 
-        <div class="block">
+        <!-- <div class="block">
             <div class="container">
                 <div class="logos">
                     <div class="owl-carousel" data-owl-nav="1" data-owl-dots="0" data-owl-items="5">
@@ -824,11 +922,9 @@
                         </div>
                     </div>
                 </div>
-                <!--end logos-->
             </div>
-            <!--end container-->
         </div>
-        <!--end block-->
+        -->
 
 
     </div>
@@ -856,39 +952,54 @@
             </div>
             <!--end row-->
             <hr>
-            <div class="note">(C) 2016 All Rights Reserved</div>
+            <!-- <div class="note">(C) 2025 All Rights Reserved</div> -->
             <!--end note-->
-            <div class="numbers">
-                <h2>Bonus numbers.</h2>
-                <div class="row">
-                    <div class="col-md-2 col-sm-2">
+            <div class="">
+                <!-- <h2>Bonus numbers.</h2> -->
+                <div class="social footer-social">
+                    <a href="#" class="roll-effect"><i class="fa-brands fa-facebook-f social-icon ftr-scl"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter social-icon ftr-scl"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram social-icon ftr-scl"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube social-icon ftr-scl"></i></a>
+                </div>
+                <div class="footer-navbar">
+                    <div>
                         <div class="number">
-                            <figure>54</figure>
-                            <p>Projects done</p>
+                            <!-- <figure>54</figure> -->
+                            <!-- <p>Projects done</p> -->
+                            <a href="#page-top" class="scroll">Home</a>
                         </div>
                         <!--end number-->
                     </div>
                     <!--col-md-2-->
-                    <div class="col-md-2 col-sm-2">
+                    <div>
                         <div class="number">
-                            <figure>21</figure>
-                            <p>Employees</p>
+                            <a href="#about" class="scroll">About</a>
+                            
+                            
                         </div>
                         <!--end number-->
                     </div>
                     <!--col-md-2-->
-                    <div class="col-md-2 col-sm-2">
+                    <div>
                         <div class="number">
-                            <figure>48</figure>
-                            <p>Satisfied Clients</p>
+                            <a href="#gallery" class="scroll">Gallery</a>
+                            
                         </div>
                         <!--end number-->
                     </div>
                     <!--col-md-2-->
-                    <div class="col-md-2 col-sm-2">
+                    <div>
                         <div class="number">
-                            <figure>17</figure>
-                            <p>Prices Won</p>
+                            <a href="#pricing" class="scroll">Pricing</a>
+                            
+                        </div>
+                        <!--end number-->
+                    </div>
+                    <div>
+                        <div class="number">
+                            <a href="#contact" class="scroll">Contact</a>
+                            
                         </div>
                         <!--end number-->
                     </div>
@@ -993,9 +1104,12 @@
 <!--end modal-->
 
 <!--end outer-wrapper-->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 <script type="text/javascript" src="assets/js/jquery-2.2.1.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
 <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
@@ -1005,7 +1119,7 @@
 <!--<script type="text/javascript" src="assets/js/waypoints.min.js"></script>-->
 <script type="text/javascript" src="assets/js/readmore.min.js"></script>
 <script type="text/javascript" src="assets/js/pace.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="text/javascript" src="assets/js/custom.js"></script>
 
 <!-- <script type="text/javascript">
